@@ -8,7 +8,7 @@ from dash.dependencies import Input, Output
 import plotly
 import plotly.express as px
 
-df = pd.read_csv("final_data.csv")
+df = pd.read_csv("../final_data.csv")
 
 mark_values = {2000:'2000',2001:'2001',2002:'2002',2003:'2003',
                2004:'2004',2005:'2005',2006:'2006',2007:'2007',
